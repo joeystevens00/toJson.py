@@ -24,10 +24,6 @@ class toJson:
 			keys.update({key: value})
 		self.data=keys
 
-
-#Testing = toJson("One=1 | Two=2")
-#print(Testing.parseData())
-#print(Testing.getJson())
 if __name__ == '__main__':
 	X = toJson("")
 
